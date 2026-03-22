@@ -18,12 +18,12 @@ pipeline {
                 }
             }
         }
-        stage('Checkout Code') {
+        stage('DEBUG: Checking Out') {
             steps {
                 git branch: 'main', url: 'https://github.com/snailstampede-svg/Aaron_McDonald_jenkins-s3-test.git' 
             }
         }
-
+""
         stage('Initialize Terraform') {
             steps {
                 withCredentials([[
