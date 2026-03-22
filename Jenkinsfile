@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/snailstampede-svg/Aaron_McDonald_jenkins-s3-test' 
+                git branch: 'main', url: 'https://github.com/snailstampede-svg/Aaron_McDonald_jenkins-s3-test.git' 
             }
         }
 
