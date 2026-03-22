@@ -9,7 +9,7 @@ pipeline {
             steps {
                 withCredentials([[
                     $class: 'AmazonWebServicesCredentialsBinding',
-                    credentialsId: 'Jenkins_test_032126t' //This is necessary and has to match the credential ID in Jenkins
+                    credentialsId: 'Jenkins_test_032126' //This is necessary and has to match the credential ID Jenkins
                 ]]) {
                     sh '''
                     echo "AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID"
@@ -18,11 +18,12 @@ pipeline {
                 }
             }
         }
-        stage('DEBUG: Checking Out') {
+        stage('Checkout Code') {
             steps {
                 git branch: 'main', url: 'https://github.com/snailstampede-svg/Aaron_McDonald_jenkins-s3-test.git' 
             }
         }
+
         stage('Initialize Terraform') {
             steps {
                 withCredentials([[
