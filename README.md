@@ -13,7 +13,16 @@ __* Modify the startup script to include terraform, AWS, and Python, update the 
 ---
 ![Be A Man 1](./screenshots/BAM_1.png)
 
+__* Create an IAM user with least privilege to deploy infrastructure on the pipeline. Do your best to restrict access, list out the IAM permissions granted, and write out your methodology behind doing so.*__
+---
+---
+
 ![Be A Man 2](./screenshots/BAM_2.png)
+---
+---
+__* Write out and define what each of the pipeline triggers does in Jenkins. Which trigger(s) would be used when a GitHub repo is updated? What would be good for testing environments? What works better within production? *__
+---
+---
 
 ![Be A Man 3](./screenshots/BAM_3.png)
 ---
