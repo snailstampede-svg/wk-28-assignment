@@ -40,4 +40,4 @@ __* Write out and define what each of the pipeline triggers does in Jenkins. Whi
 ![Be A Man 3](./screenshots/BAM_3.png)
 
 
-author: Ernest Morris
+author: Ernest M.
