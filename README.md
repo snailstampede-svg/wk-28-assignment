@@ -38,3 +38,6 @@
 
 __* Write out and define what each of the pipeline triggers does in Jenkins. Which trigger(s) would be used when a GitHub repo is updated? What would be good for testing environments? What works better within production? *__
 ![Be A Man 3](./screenshots/BAM_3.png)
+
+
+author: Ernest Morris
